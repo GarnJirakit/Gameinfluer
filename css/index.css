@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+  /* background: rgb(254,7,49);
+  background: linear-gradient(90deg, rgba(254,7,49,1) 0%, rgba(251,69,100,1) 100%); */
+}
+
+.space {
+  height: 50px;
+}
+
+.spacee {
+height: 20px;
+}
+
+.spaceo {
+height: 250px;
+}
+
+
+.font{
+  font-family: 'Kanit', sans-serif;  
+}
+
+.pic1{
+  padding: 15px;
+}
+
+.container{
+  background: white;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.sildeshow1 {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 100px;
+  color: white;
+  background: rgb(254,7,49);
+  background: linear-gradient(90deg, rgba(254,7,49,1) 0%, rgba(251,69,100,1) 100%);
+  
+}
+.sildeshow2 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: white;  
+}
+
+.sildeshow3 {
+width: 100%;
+height: 100px;
+text-align: center;
+padding-left: 200px;
+background-color: white;  
+}
+
+.sildeshow4 {
+width: 100%;
+height: 100px;
+text-align: center;
+background-color: white;  
+}
+
+/* HeadBar ------------------------------- */
+
+.topnav {
+  overflow: hidden;
+  font-family: 'Kanit', sans-serif;
+  background: rgb(254,7,49);
+  background: linear-gradient(90deg, rgba(254,7,49,1) 0%, rgba(251,69,100,1) 100%);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* HeadBar ------------------------------- */
+
+#rcorners {
+  margin: 2em auto;
+  border-radius: 25px;
+  font-family: 'Kanit', sans-serif;
+  background: rgb(254,7,49);
+  background: linear-gradient(90deg, rgba(254,7,49,1) 0%, rgba(251,69,100,1) 100%);
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+}

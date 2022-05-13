@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 100%;
+}
+
+body{
+    background-image: url(https://sv1.picz.in.th/images/2022/03/25/8zHtMf.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: rgb(254,7,49);
+    background: linear-gradient(90deg, rgba(254,7,49,1) 0%, rgba(251,69,100,1) 100%);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+/* web page */
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.bt2{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+    
+.bt2:hover{
+    background: black;
+    color: white;
+}
+
+.active {
+    background: rgba(0, 0, 0, 0.356);
+    border-radius: 50px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+
+.grid {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    color: #666666;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid .grid-body {
+    padding: 15px 20px 15px 20px;
+    font-size: 0.9em;
+    line-height: 1.9em;
+}
+
+.search table tr td.rate {
+    color: #f39c12;
+    line-height: 50px;
+}
+
+.search table tr:hover {
+    cursor: pointer;
+}
+
+.search table tr td.image {
+	width: 50px;
+}
+
+.search table tr td img {
+	width: 50px;
+	height: 50px;
+}
+
+.search table tr td.rate {
+	color: #f39c12;
+	line-height: 50px;
+}
+
+.search table tr td.price {
+	font-size: 1.5em;
+	line-height: 50px;
+}
+
+.search #price1,
+.search #price2 {
+	display: inline;
+	font-weight: 600;
+}
+
+.fa-user {
+    color: #720000;
+}
+
+.fa-star {
+    color: #f39c12;
+}
+
+.fa-coins {
+    color: rgb(255, 200, 21);
+}
+
+/* footer */
+
+.footer-basic {
+    padding:40px 0;
+    margin-top: 220px;
+    background-color:#252525;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .copyright {
+      font-size: 15px;
+  }
+
+  .popbut {
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    transition-duration: 0.6s;
+}
+
+.popbut:hover {
+    background: black;
+    color: white;
+}
+
+.popbut .fa-ticket:hover {
+    color: rgb(255, 196, 0);
+}
+
+.fa-ticket-alt {
+    color: rgb(255, 196, 0);
+}
+
+.fa-plus-circle {
+    color:rgba(0, 0, 0, 0.356)
+}
+
+/* .modal-backdrop {
+    background-color: red;
+} */
